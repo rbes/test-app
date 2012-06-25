@@ -1,0 +1,28 @@
+COMPILE & RUN
+==========
+
+to compile erlang server, you need run erlang shell:
+~/server/:$ erl
+
+compile server module:
+1> c(module).
+{ok,module}
+
+run server:
+2> module:start().
+
+if you need to run GUI apparent from server, you need launch python app:
+~/ui/python pui.py
+
+Contact me for questions
+=======================
+
+besserov.ruslan@gmail.com
+
+
+LICENSING
+=========
+
+Free
+
+
